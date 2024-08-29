@@ -40,7 +40,7 @@ def action_crack(ip: str, port: int, id: str, pw: str):
         return False
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description="MySQL Password Recovery Script")
+    parser = argparse.ArgumentParser(description="MySQL Cracker")
     parser.add_argument("-i", "--ip_file", default=DEFAULT_FILE_IP_LIST, help="File containing IP addresses")
     parser.add_argument("-u", "--user_file", default=DEFAULT_FILE_USER_LIST, help="File containing usernames")
     parser.add_argument("-w", "--pw_file", default=DEFAULT_FILE_PW_LIST, help="File containing passwords")
